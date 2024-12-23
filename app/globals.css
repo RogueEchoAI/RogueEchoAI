@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --neon-teal: #47d18c;
+}
+
+@layer utilities {
+  .text-neon {
+    color: var(--neon-teal);
+  }
+
+  .border-neon {
+    border-color: white;
+  }
+
+  .bg-neon {
+    background-color: var(--neon-teal);
+  }
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
